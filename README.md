@@ -43,11 +43,15 @@ Para rodar este projeto, é necessário ter os seguintes pacotes Python instalad
 
 A regressão logística é ideal para problemas como o de previsão de inadimplência porque:
 
---É projetada para classificação binária.
---Oferece probabilidades úteis para decisões.
---É simples de interpretar, o que facilita entender o modelo.
---Tem boa performance em dados lineares.
---É eficiente computacionalmente.
+-É projetada para classificação binária.
+
+-Oferece probabilidades úteis para decisões.
+
+-É simples de interpretar, o que facilita entender o modelo.
+
+-Tem boa performance em dados lineares.
+
+-É eficiente computacionalmente.
 
 # Resultados
 
@@ -73,36 +77,6 @@ weighted avg       1.00      1.00      1.00        93
 
 AUC-ROC: 1.0
 
-# Resultado dos Inadimplentes
+# Conclusão
 
-             id  situacao vencimento     valor  ...                       hoje  dias_atraso situacao_atual inadimplente
-2   20715622393         1 2020-12-28    350.00  ... 2025-03-01 13:13:25.949720         1524           Pago            1
-4   20715622265         1 2021-06-10   3500.00  ... 2025-03-01 13:13:25.949720         1360           Pago            1
-5   20715623554         1 2021-11-01  10150.00  ... 2025-03-01 13:13:25.949720         1216           Pago            1
-6   20715623522         1 2021-10-27    800.00  ... 2025-03-01 13:13:25.949720         1221           Pago            1
-7   20715623941         1 2021-10-01   3225.30  ... 2025-03-01 13:13:25.949720         1247           Pago            1
-8   20715623163         1 2022-03-22    400.00  ... 2025-03-01 13:13:25.949720         1075           Pago            1
-9   20715624022         1 2022-10-05  11764.18  ... 2025-03-01 13:13:25.949720          878           Pago            1
-10  20715624051         1 2022-11-07  13750.00  ... 2025-03-01 13:13:25.949720          845           Pago            1
-11  20715624025         1 2022-10-17  15400.00  ... 2025-03-01 13:13:25.949720          866           Pago            1
-16  20715623866         1 2023-04-14  19800.00  ... 2025-03-01 13:13:25.949720          687           Pago            1
-17  20715622770         1 2023-05-05   3000.00  ... 2025-03-01 13:13:25.949720          666           Pago            1
-22  20715622755         1 2023-05-05    666.67  ... 2025-03-01 13:13:25.949720          666           Pago            1
-26  20715622808         1 2023-09-05    666.65  ... 2025-03-01 13:13:25.949720          543           Pago            1
-27  20715623006         1 2023-03-17    500.00  ... 2025-03-01 13:13:25.949720          715           Pago            1
-34  20715622934         1 2023-09-08   4228.00  ... 2025-03-01 13:13:25.949720          540           Pago            1
-35  20715623226         1 2023-09-25  13160.00  ... 2025-03-01 13:13:25.949720          523           Pago            1
-36  20715623170         1 2024-01-25   5040.00  ... 2025-03-01 13:13:25.949720          401           Pago            1
-37  20715622957         1 2023-12-15   7250.00  ... 2025-03-01 13:13:25.949720          442           Pago            1
-39  20715622643         1 2024-05-27   8880.00  ... 2025-03-01 13:13:25.949720          278           Pago            1
-40  20715626423         1 2024-05-06    288.00  ... 2025-03-01 13:13:25.949720          299           Pago            1
-41  20715622699         2 2024-07-03   1908.00  ... 2025-03-01 13:13:25.949720          241      Em Aberto            1
-42  20715622168         1 2024-07-08    743.76  ... 2025-03-01 13:13:25.949720          236           Pago            1
-43  20715622715         1 2024-07-08    508.80  ... 2025-03-01 13:13:25.949720          236           Pago            1
-44  20715621862         2 2024-07-22   2426.66  ... 2025-03-01 13:13:25.949720          222      Em Aberto            1
-45  20715626640         2 2024-06-17    424.00  ... 2025-03-01 13:13:25.949720          257      Em Aberto            1
-46  20715625843         2 2024-07-18   1190.00  ... 2025-03-01 13:13:25.949720          226      Em Aberto            1
-47  20715625851         2 2024-07-18   1190.00  ... 2025-03-01 13:13:25.949720          226      Em Aberto            1
-48  20715625857         2 2024-07-18   1190.00  ... 2025-03-01 13:13:25.949720          226      Em Aberto            1
-49  20715625863         2 2024-07-18   1190.00  ... 2025-03-01 13:13:25.949720          226      Em Aberto            1
-50  20715625867         2 2024-07-18   1190.00  ... 2025-03-01 13:13:25.949720          226      Em Aberto            1
+O modelo de Regressão Logística foi treinado com sucesso para prever a inadimplência dos clientes da empresa Zero Furo. A intenção é prever a inadimplência de clientes com base em seu comportamento financeiro geral (como total da dívida, quantidade de contas vencidas e média de atraso). A regressão logística deve levar em conta essas variáveis, pois um cliente que pagou, mas ainda tem uma grande dívida ou um histórico de atraso, pode ter maior risco de inadimplência, independentemente da situação atual de uma conta específica.
