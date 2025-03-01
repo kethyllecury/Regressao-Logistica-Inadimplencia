@@ -77,6 +77,22 @@ weighted avg       1.00      1.00      1.00        93
 
 AUC-ROC: 1.0
 
+## Insights do Modelo de Previsão de Inadimplência
+
+O modelo de previsão de inadimplência pode fornecer os seguintes insights importantes para a gestão de contas a receber e a redução do risco de inadimplência:
+
+- **Segmentação de Clientes**: O modelo identifica clientes com maior risco de inadimplência com base em fatores como o total de dívida, número de contas vencidas e dias de atraso.
+  
+- **Gestão de Risco**: Permite a priorização da cobrança de clientes com maior risco de inadimplência, garantindo que os recursos de cobrança sejam alocados de forma mais eficaz.
+  
+- **Análise de Tendências**: Ajuda a identificar padrões de atraso de pagamento entre os clientes, permitindo prever futuras inadimplências com maior precisão.
+  
+- **Estratégias de Prevenção**: Facilita o desenvolvimento de estratégias para reduzir a inadimplência, como renegociações de dívida ou campanhas de recuperação.
+
+- **Ajuste de Política de Crédito**: O modelo pode influenciar as políticas de crédito, ajustando as condições de pagamento e oferecendo limites de crédito mais seguros com base nas probabilidades de inadimplência dos clientes.
+
+- **Aprimoramento de Modelos**: O modelo pode ser continuamente aprimorado com a adição de novas variáveis e dados históricos, garantindo que as previsões se mantenham precisas e relevantes.
+
 # Conclusão
 
 O modelo de Regressão Logística foi treinado com sucesso para prever a inadimplência dos clientes da empresa Zero Furo. A intenção é prever a inadimplência de clientes com base em seu comportamento financeiro geral (como total da dívida, quantidade de contas vencidas e média de atraso). A regressão logística deve levar em conta essas variáveis, pois um cliente que pagou, mas ainda tem uma grande dívida ou um histórico de atraso, pode ter maior risco de inadimplência, independentemente da situação atual de uma conta específica.
