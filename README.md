@@ -43,15 +43,15 @@ Para rodar este projeto, é necessário ter os seguintes pacotes Python instalad
 
 A regressão logística é ideal para problemas como o de previsão de inadimplência porque:
 
--É projetada para classificação binária.
+É projetada para classificação binária.
 
--Oferece probabilidades úteis para decisões.
+Oferece probabilidades úteis para decisões.
 
--É simples de interpretar, o que facilita entender o modelo.
+É simples de interpretar, o que facilita entender o modelo.
 
--Tem boa performance em dados lineares.
+Tem boa performance em dados lineares.
 
--É eficiente computacionalmente.
+É eficiente computacionalmente.
 
 # Resultados
 
