@@ -39,7 +39,7 @@ Para rodar este projeto, é necessário ter os seguintes pacotes Python instalad
 - `matplotlib`
 - `scikit-learn`
 
-# Modelo
+## Modelo
 
 A regressão logística é ideal para problemas como o de previsão de inadimplência porque:
 
@@ -53,7 +53,7 @@ Tem boa performance em dados lineares.
 
 É eficiente computacionalmente.
 
-# Resultados
+## Resultados
 
 O modelo de Regressão Logística foi avaliado com base nas métricas de performance:
 
@@ -93,6 +93,6 @@ O modelo de previsão de inadimplência pode fornecer os seguintes insights impo
 
 - **Aprimoramento de Modelos**: O modelo pode ser continuamente aprimorado com a adição de novas variáveis e dados históricos, garantindo que as previsões se mantenham precisas e relevantes.
 
-# Conclusão
+## Conclusão
 
 O modelo de Regressão Logística foi treinado com sucesso para prever a inadimplência dos clientes da empresa Zero Furo. A intenção é prever a inadimplência de clientes com base em seu comportamento financeiro geral (como total da dívida, quantidade de contas vencidas e média de atraso). A regressão logística deve levar em conta essas variáveis, pois um cliente que pagou, mas ainda tem uma grande dívida ou um histórico de atraso, pode ter maior risco de inadimplência, independentemente da situação atual de uma conta específica.
